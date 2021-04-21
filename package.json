@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "d3": "^3.5.17",
+    "dayjs": "^1.10.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "sass-loader": "^11.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
