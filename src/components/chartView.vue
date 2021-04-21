@@ -2,6 +2,7 @@
   <div class="hello">
     <input type="button" value="打印" @click="printGraph()">
     <Graphics :value="value"></Graphics>
+    <h1> QQ:853839625 获取Vue源码 </h1>
   </div>
 </template>
 
