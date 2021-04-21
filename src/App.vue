@@ -1,22 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld v-if="!needPrint" msg="Welcome to Your Vue.js App" />
+    <Print v-if="needPrint"></Print>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Print from './components/printView'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Print
+  },
+  data () {
+    return {
+      needPrint: false
+    }
+  },
+  created () {
+    // 只是为了区分打印还是展示
+    if (location.search.includes('id')) {
+      this.needPrint = true
+    }
   }
 }
 </script>
 
-<style lang="less">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
