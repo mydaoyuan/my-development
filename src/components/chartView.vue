@@ -37,7 +37,7 @@ export default {
       document.body.appendChild(iframe)
     },
     computedPrintSrc (id) {
-      const path = `/printgraphics?id=${id}`
+      const path = `/temperature/printgraphics?id=${id}`
       const topLoc = window.top.location
       const port = topLoc.port ? `:${topLoc.port}` : ''
       const href = topLoc.protocol + '//' + topLoc.hostname + port + path
