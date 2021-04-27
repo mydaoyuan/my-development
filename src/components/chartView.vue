@@ -2,6 +2,7 @@
   <div class="hello">
     <input type="button" value="打印" @click="printGraph()">
     <Graphics v-if="value" :value="value"></Graphics>
+    <h1 v-else>接口请求数据中</h1>
   </div>
 </template>
 
