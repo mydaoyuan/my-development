@@ -1,14 +1,13 @@
 <template>
   <div class="hello">
     <input type="button" value="打印" @click="printGraph()">
-    <Graphics :value="value"></Graphics>
-    <h1> QQ:853839625 获取Vue源码 </h1>
+    <Graphics v-if="value" :value="value"></Graphics>
   </div>
 </template>
 
 <script>
 import Graphics from './temperature/graphics'
-import dataModel from './temperature/data'
+import dataModel from './data'
 let PRINT_ID = 0
 export default {
   name: 'HelloWorld',
@@ -17,10 +16,20 @@ export default {
   },
   data () {
     return {
-      value: dataModel
+      value: null
     }
   },
+  created () {
+    this.getData()
+  },
   methods: {
+    // 模拟后端数据请求
+    getData () {
+      setTimeout(() => {
+        this.value = dataModel
+      }, 1000)
+    },
+    // 打印体温单
     printGraph () {
       // 打印单周还是打印全部
       const weekList = [this.value]
@@ -36,6 +45,7 @@ export default {
       console.log('printGraph', id)
       document.body.appendChild(iframe)
     },
+    // 计算需要跳转到的打印地址
     computedPrintSrc (id) {
       const path = `/temperature/printgraphics?id=${id}`
       const topLoc = window.top.location
