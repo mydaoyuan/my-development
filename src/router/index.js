@@ -19,7 +19,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  base: '/temperature/',
+  base: '/',
   mode: 'history',
   routes
 })

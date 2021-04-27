@@ -1,11 +1,6 @@
-// const path = require('path')
-// const PrerenderSPAPlugin = require('prerender-spa-plugin')
 module.exports = {
   productionSourceMap: false,
-  publicPath: '/temperature/',
-  // publicPath: process.env.NODE_ENV === 'production'
-  //   ? '/temperature/'
-  //   : '/',
+  publicPath: '/',
   pages: {
     index: {
       // page 的入口
@@ -22,31 +17,4 @@ module.exports = {
       chunks: ['chunk-vendors', 'chunk-common', 'index']
     }
   }
-  // configureWebpack: config => {
-  //   if (process.env.NODE_ENV === 'production') {
-  //     // 为生产环境修改配置...
-  //     return {
-  //       plugins: [
-  //         // 预渲染配置
-  //         new PrerenderSPAPlugin({
-  //           // 要求-给的WebPack-输出应用程序的路径预渲染。
-  //           staticDir: path.join(__dirname, 'dist'),
-  //           // 必需，要渲染的路线。
-  //           routes: ['/']
-  //           // 必须，要使用的实际渲染器，没有则不能预编译
-  //           // renderer: new Renderer({
-  //           //   headless: false, // 渲染时显示浏览器窗口。对调试很有用。
-  //           //   // 等待渲染，直到检测到指定元素。
-  //           //   // 例如，在项目入口使用`document.dispatchEvent(new Event('custom-render-trigger'))`
-  //           //   renderAfterDocumentEvent: 'render-event'
-  //           // }),
-  //           // renderAfterTime: 5000
-  //         })
-  //       ]
-  //     }
-  //   } else {
-  //     // 为开发环境修改配置...
-  //     return {}
-  //   }
-  // }
 }
