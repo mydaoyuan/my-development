@@ -48,7 +48,7 @@ export default {
     },
     // 计算需要跳转到的打印地址
     computedPrintSrc (id) {
-      const path = `/temperature/printgraphics?id=${id}`
+      const path = `/printgraphics?id=${id}`
       const topLoc = window.top.location
       const port = topLoc.port ? `:${topLoc.port}` : ''
       const href = topLoc.protocol + '//' + topLoc.hostname + port + path
