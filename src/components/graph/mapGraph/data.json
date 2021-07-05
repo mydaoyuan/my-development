@@ -1,0 +1,35 @@
+{
+  "Name": "XXXX科技有限公司",
+  "branch": [],
+  "invest": [],
+  "historyOpers": [],
+  "historyShareholder": [],
+  "employ": [
+    {
+      "Name": "XXX",
+      "Job": "执行董事兼总经理"
+    },
+    {
+      "Name": "XXX",
+      "Job": "监事"
+    }
+  ],
+  "stock": [
+    {
+      "Name": "XXXX投资合伙企业（有限合伙）",
+      "Percent": "22%"
+    },
+    {
+      "Name": "XXX",
+      "Percent": "19%"
+    },
+    {
+      "Name": "XXXXXX信息技术有限公司",
+      "Percent": "13%"
+    },
+    {
+      "Name": "XXXX投资合伙企业（有限合伙）",
+      "Percent": "12%"
+    }
+  ]
+}
