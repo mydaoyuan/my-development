@@ -40,9 +40,9 @@ export default {
   },
   mounted () {
     Promise.all([
-      createdScript('/static/js/d3.v4.js'),
-      createdScript('/static/js/cytoscape.js'),
-      createdScript('/static/js/jquery.min.js')
+      createdScript('/temperature/static/js/d3.v4.js'),
+      createdScript('/temperature/static/js/cytoscape.js'),
+      createdScript('/temperature/static/js/jquery.min.js')
     ]).then(() => {
       // 传入数据、和rootID
       start({ success: DBJSON }, DBJSON.results[0].data[0].graph.nodes[0].id)
@@ -74,7 +74,7 @@ function createdScript (scriptSrc) {
 </script>
 
 <style lang="less" scoped>
-@import url('/static/js/font-awesome.min.css');
+@import url('/temperature/static/js/font-awesome.min.css');
 #main,
 #MainCy {
   width: 100%;
