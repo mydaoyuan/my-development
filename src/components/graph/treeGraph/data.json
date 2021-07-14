@@ -1,0 +1,113 @@
+{
+  "companyName": "xxxx技术有限公司",
+  "downward": {
+    "direction": "downward",
+    "name": "origin",
+    "children": [
+      {
+        "name": "XXX药业股份有限公司",
+        "hasHumanholding": true,
+        "shouldCapi": "300w",
+        "percent": "50%控股",
+        "children": [
+          {
+            "name": "公司或股东名字写这里",
+            "children": [],
+            "shouldCapi": "150w",
+            "percent": "50%控股"
+          },
+          {
+            "name": "公司或股东名字写这里",
+            "children": [],
+            "shouldCapi": "150w",
+            "percent": "50%控股"
+          }
+        ]
+      },
+      {
+        "name": "公司或股东名字",
+        "money": "300w",
+        "percent": "20%控股",
+        "children": []
+      },
+      {
+        "name": "公司或股东名字hasChildren",
+        "percent": "30%控股",
+        "children": [
+          {
+            "name": "公司或股东名字",
+            "percent": "30%控股",
+            "children": []
+          },
+          {
+            "name": "公司或股东名字",
+            "money": "300w",
+            "percent": "30%控股",
+            "children": []
+          },
+          {
+            "name": "公司或股东名字",
+            "percent": "30%控股",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "upward": {
+    "direction": "upward",
+    "name": "origin",
+    "children": [
+      {
+        "level": 1,
+        "tags": [],
+        "percent": "53%",
+        "stockRightNum": "",
+        "detailCount": 0,
+        "shortStatus": "",
+        "shouldCapi": "159",
+        "children": [],
+        "org": 2,
+        "companyCode": "",
+        "percentTotal": "53%",
+        "keyNo": "p2edes6482s3cb0e4fccccd59ddc63d3adc635",
+        "name": "XXX"
+      },
+      {
+        "name": "公司或股东名字",
+        "children": [
+          {
+            "name": "公司或股东名字",
+            "percent": "53%",
+            "children": []
+          },
+          {
+            "name": "公司或股东名字",
+            "children": [
+              {
+                "name": "公司或股东名字",
+                "percent": "53%",
+                "children": []
+              },
+              {
+                "name": "公司或股东名字",
+                "percent": "53%",
+                "children": [
+                  {
+                    "name": "xxxxx",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "公司或股东名字",
+            "percent": "53%",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

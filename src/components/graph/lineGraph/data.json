@@ -1,0 +1,360 @@
+{
+  "results": [
+    {
+      "columns": [
+        "nodes",
+        "rel"
+      ],
+      "data": [
+        {
+          "graph": {
+            "nodes": [
+              {
+                "id": "9002e9555985c291b55fa595253cd878",
+                "labels": [
+                  "Company"
+                ],
+                "properties": {
+                  "keyNo": "9002e9555985c291b55fa595253cd878",
+                  "name": "沈阳富有照明电器厂",
+                  "hasImage": true,
+                  "status": "存续",
+                  "registCapi": "500.000",
+                  "econKind": "股份合作制"
+                }
+              },
+              {
+                "id": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "labels": [
+                  "Person"
+                ],
+                "properties": {
+                  "keyNo": "p5441bd3bef2ad3028a38221ff44a9f6",
+                  "name": "胡滨",
+                  "hasImage": false
+                }
+              },
+              {
+                "id": "6f9989e66ed99893a9915a9deae7bb1d",
+                "labels": [
+                  "Company"
+                ],
+                "properties": {
+                  "keyNo": "6f9989e66ed99893a9915a9deae7bb1d",
+                  "name": "沈阳鑫富有商贸有限公司",
+                  "hasImage": false,
+                  "status": "注销",
+                  "registCapi": "55.000",
+                  "econKind": "有限责任公司(自然人投资或控股的法人独资)"
+                }
+              },
+              {
+                "id": "p85cd2b6754f77c7a922828de67189c7",
+                "labels": [
+                  "Person"
+                ],
+                "properties": {
+                  "keyNo": "p85cd2b6754f77c7a922828de67189c7",
+                  "name": "胡金凤",
+                  "hasImage": false
+                }
+              },
+              {
+                "id": "c0e400e64131793c0b27c252319c77cf",
+                "labels": [
+                  "Company"
+                ],
+                "properties": {
+                  "keyNo": "c0e400e64131793c0b27c252319c77cf",
+                  "name": "沈阳富有照明电器有限公司",
+                  "hasImage": true,
+                  "status": "存续",
+                  "registCapi": "5.000",
+                  "econKind": "有限责任公司（自然人投资或控股的法人独资）"
+                }
+              },
+              {
+                "id": "p45f3cf56297deaec889b7b70de2df79",
+                "labels": [
+                  "Person"
+                ],
+                "properties": {
+                  "keyNo": "p8b52706c0ac775c1c2a2bfbc1072551",
+                  "name": "孙士安",
+                  "hasImage": true
+                }
+              },
+              {
+                "id": "f3b023c55534501efa8a406031b6dda9",
+                "labels": [
+                  "Company"
+                ],
+                "properties": {
+                  "keyNo": "f3b023c55534501efa8a406031b6dda9",
+                  "name": "沈阳拜斯德电子商务有限公司",
+                  "hasImage": false,
+                  "status": "存续",
+                  "registCapi": "100.000",
+                  "econKind": "有限责任公司（自然人投资或控股）"
+                }
+              },
+              {
+                "id": "8735b3fb7d33466b1a664f0f21b8958d",
+                "labels": [
+                  "Company"
+                ],
+                "properties": {
+                  "keyNo": "8735b3fb7d33466b1a664f0f21b8958d",
+                  "name": "沈阳市胡记餐饮有限公司",
+                  "hasImage": false,
+                  "status": "注销",
+                  "registCapi": "50.000",
+                  "econKind": "有限责任公司(自然人投资或控股)"
+                }
+              },
+              {
+                "id": "pc288564aa7aca6b129faad940917139",
+                "labels": [
+                  "Person"
+                ],
+                "properties": {
+                  "keyNo": "pc288564aa7aca6b129faad940917139",
+                  "name": "闫春生",
+                  "hasImage": false
+                }
+              },
+              {
+                "id": "pd9538895821e67d046c865be741a752",
+                "labels": [
+                  "Person"
+                ],
+                "properties": {
+                  "keyNo": "pd9538895821e67d046c865be741a752",
+                  "name": "郭彦",
+                  "hasImage": false
+                }
+              }
+            ],
+            "relationships": [
+              {
+                "id": "e2f1a11427879e3b6284fdac807498fa",
+                "type": "INVEST",
+                "startNode": "p85cd2b6754f77c7a922828de67189c7",
+                "endNode": "9002e9555985c291b55fa595253cd878",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 25,
+                  "stockPercent": 5
+                }
+              },
+              {
+                "id": "fa1ddbab32e678501531792227912f49",
+                "type": "INVEST",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "9002e9555985c291b55fa595253cd878",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 475,
+                  "stockPercent": 95
+                }
+              },
+              {
+                "id": "fefebd4b6473ca9a8b94d8b85f5d37fe",
+                "type": "INVEST",
+                "startNode": "9002e9555985c291b55fa595253cd878",
+                "endNode": "6f9989e66ed99893a9915a9deae7bb1d",
+                "properties": {
+                  "role": "企业法人",
+                  "shouldCapi": 55,
+                  "stockPercent": 100
+                }
+              },
+              {
+                "id": "5b4fceaa9288ae1c8e28669ad2cf5142",
+                "type": "INVEST",
+                "startNode": "9002e9555985c291b55fa595253cd878",
+                "endNode": "c0e400e64131793c0b27c252319c77cf",
+                "properties": {
+                  "role": "企业法人",
+                  "shouldCapi": 5,
+                  "stockPercent": 100
+                }
+              },
+              {
+                "id": "be80583c0cbd87d6acd17106666576ff",
+                "type": "EMPLOY",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "9002e9555985c291b55fa595253cd878",
+                "properties": {
+                  "role": ""
+                }
+              },
+              {
+                "id": "5ffda0e014c27a3ab42275072caf4cdc",
+                "type": "LEGAL",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "9002e9555985c291b55fa595253cd878",
+                "properties": {
+                  "role": "法定代表人"
+                }
+              },
+              {
+                "id": "72339c82a231b103f2d11893313920d7",
+                "type": "INVEST",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "f3b023c55534501efa8a406031b6dda9",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 70,
+                  "stockPercent": 70
+                }
+              },
+              {
+                "id": "4e9a5f797c16b4f5a6c052bc8e7448f0",
+                "type": "LEGAL",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "c0e400e64131793c0b27c252319c77cf",
+                "properties": {
+                  "role": "法定代表人"
+                }
+              },
+              {
+                "id": "051735be3b5cbeec6ce963957028d32b",
+                "type": "LEGAL",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "f3b023c55534501efa8a406031b6dda9",
+                "properties": {
+                  "role": "法定代表人"
+                }
+              },
+              {
+                "id": "7f8e072c1c529473ff6d56cc231cdaed",
+                "type": "EMPLOY",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "c0e400e64131793c0b27c252319c77cf",
+                "properties": {
+                  "role": "执行董事兼总经理"
+                }
+              },
+              {
+                "id": "e5c79643699ede4024ce36fb37c44c39",
+                "type": "EMPLOY",
+                "startNode": "p5441bd3bef2ad3028a38221ff44a9f6",
+                "endNode": "f3b023c55534501efa8a406031b6dda9",
+                "properties": {
+                  "role": "执行董事兼总经理"
+                }
+              },
+              {
+                "id": "af896378712bdd546af1033d14fa281b",
+                "type": "EMPLOY",
+                "startNode": "p45f3cf56297deaec889b7b70de2df79",
+                "endNode": "6f9989e66ed99893a9915a9deae7bb1d",
+                "properties": {
+                  "role": "执行董事"
+                }
+              },
+              {
+                "id": "ba31e24a9f1049e1bb47161da03ca7d6",
+                "type": "EMPLOY",
+                "startNode": "pc288564aa7aca6b129faad940917139",
+                "endNode": "6f9989e66ed99893a9915a9deae7bb1d",
+                "properties": {
+                  "role": "监事"
+                }
+              },
+              {
+                "id": "95cdbde377b8359e6856f4cf3656ae3e",
+                "type": "LEGAL",
+                "startNode": "p45f3cf56297deaec889b7b70de2df79",
+                "endNode": "6f9989e66ed99893a9915a9deae7bb1d",
+                "properties": {
+                  "role": "法定代表人"
+                }
+              },
+              {
+                "id": "e10ef617da4d8d17446b9af05c60bc1f",
+                "type": "INVEST",
+                "startNode": "p85cd2b6754f77c7a922828de67189c7",
+                "endNode": "8735b3fb7d33466b1a664f0f21b8958d",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 10,
+                  "stockPercent": 20
+                }
+              },
+              {
+                "id": "73197550837736dd30f7696d5c04bd96",
+                "type": "EMPLOY",
+                "startNode": "p85cd2b6754f77c7a922828de67189c7",
+                "endNode": "8735b3fb7d33466b1a664f0f21b8958d",
+                "properties": {
+                  "role": "监事"
+                }
+              },
+              {
+                "id": "4870cf291d5ebe694f8ca712702d062f",
+                "type": "EMPLOY",
+                "startNode": "pd9538895821e67d046c865be741a752",
+                "endNode": "c0e400e64131793c0b27c252319c77cf",
+                "properties": {
+                  "role": "监事"
+                }
+              },
+              {
+                "id": "fec570f5b8923799e80b3faa16cfd596",
+                "type": "INVEST",
+                "startNode": "pd9538895821e67d046c865be741a752",
+                "endNode": "f3b023c55534501efa8a406031b6dda9",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 30,
+                  "stockPercent": 30
+                }
+              },
+              {
+                "id": "a5b19610115ec26042c3dd561f0a3658",
+                "type": "EMPLOY",
+                "startNode": "pc288564aa7aca6b129faad940917139",
+                "endNode": "f3b023c55534501efa8a406031b6dda9",
+                "properties": {
+                  "role": "监事"
+                }
+              },
+              {
+                "id": "e06caf959897f3cae2742857a5dfbeab",
+                "type": "INVEST",
+                "startNode": "pd9538895821e67d046c865be741a752",
+                "endNode": "8735b3fb7d33466b1a664f0f21b8958d",
+                "properties": {
+                  "role": "自然人股东",
+                  "shouldCapi": 40,
+                  "stockPercent": 80
+                }
+              },
+              {
+                "id": "674db60126fbcb12a484fa4f6a7d4c07",
+                "type": "EMPLOY",
+                "startNode": "pd9538895821e67d046c865be741a752",
+                "endNode": "8735b3fb7d33466b1a664f0f21b8958d",
+                "properties": {
+                  "role": "执行董事,其他人员"
+                }
+              },
+              {
+                "id": "ffe8ec51bd235e47b5ea06c66b3c919c",
+                "type": "LEGAL",
+                "startNode": "pd9538895821e67d046c865be741a752",
+                "endNode": "8735b3fb7d33466b1a664f0f21b8958d",
+                "properties": {
+                  "role": "法定代表人"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
