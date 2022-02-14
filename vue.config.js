@@ -1,6 +1,7 @@
+const { VUE_APP_PATH } = process.env
 module.exports = {
   productionSourceMap: false,
-  publicPath: '/',
+  publicPath: VUE_APP_PATH,
   pages: {
     index: {
       // page 的入口
