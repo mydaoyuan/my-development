@@ -5,7 +5,7 @@ import PrintView from '../components/printView.vue'
 import TreeGraph from '../components/graph/treeGraph/graph.vue'
 import LineGraph from '../components/graph/lineGraph/index.vue'
 import MapGraph from '../components/graph/mapGraph/map.vue'
-
+const { VUE_APP_PATH } = process.env
 Vue.use(VueRouter)
 
 const routes = [
@@ -37,7 +37,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  base: '/',
+  base: VUE_APP_PATH,
   mode: 'history',
   routes
 })
