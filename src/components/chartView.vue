@@ -1,8 +1,9 @@
 <template>
   <div class="hello">
+    <h1> QQ:{{qq}} 获取Vue源码 </h1>
     <input type="button" value="打印" @click="printGraph()">
     <Graphics v-if="value" :value="value"></Graphics>
-    <h1 v-else>接口请求数据中</h1>
+    <h1 v-else>模拟接口请求数据中</h1>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ export default {
   },
   data () {
     return {
+      qq: process.env.VUE_APP_QQ,
       value: null
     }
   },

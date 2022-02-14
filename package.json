@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "console-ban": "^3.2.0",
     "core-js": "^3.6.5",
     "d3": "^3.5.17",
     "dayjs": "^1.10.4",
