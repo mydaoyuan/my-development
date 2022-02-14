@@ -694,6 +694,7 @@ export default {
   mounted () {
     this.initData()
     this.init()
+    console.log(this.info)
     const marginTop =
       (Math.round(this.$refs.topTd[0].getBoundingClientRect().height) - 18) *
         10 +
@@ -1017,14 +1018,20 @@ export default {
         .attr('y1', function (d) {
           return yScale(d.y) - 4
         })
-        .attr({
-          x2: function (d) {
-            return xScale(d.x) + 4
-          },
-          y2: function (d) {
-            return yScale(d.y) + 4
-          }
+        .attr('x2', function (d) {
+          return xScale(d.x) + 4
         })
+        .attr('y2', function (d) {
+          return yScale(d.y) + 4
+        })
+        // .attr({
+        //   x2: function (d) {
+        //     return xScale(d.x) + 4
+        //   },
+        //   y2: function (d) {
+        //     return yScale(d.y) + 4
+        //   }
+        // })
         .attr('stroke', function (d, i) {
           return 'blue'
         })
