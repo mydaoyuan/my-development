@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import { init } from 'console-ban'
+// import { init } from 'console-ban'
 
 Vue.config.productionTip = false
 
 if (process.env.NODE_ENV !== 'development') {
-  init({
-    write: `<h1> QQ:${process.env.VUE_APP_QQ} 获取Vue源码 </h1>`
-  })
+  // init({
+  //   write: `<h1> QQ:${process.env.VUE_APP_QQ} 获取Vue源码 </h1>`
+  // })
 }
 
 new Vue({
