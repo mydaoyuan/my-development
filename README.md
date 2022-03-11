@@ -32,7 +32,8 @@ npm run serve
 
 ## 要请作者喝杯可乐吗？🥰
 
-![pay](./pay.jpg)
+ <img src="./pay.jpg" width = "200" height = "300" alt="pay" align=center />
+
 
 ## 技术支持
 
