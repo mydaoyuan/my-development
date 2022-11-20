@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ChartView from '../components/chartView.vue'
+import Graphics from '../components/temperature-plus/components/graphics'
+import Printgraphics from '../components/temperature-plus/print'
 import PrintView from '../components/printView.vue'
 import TreeGraph from '../components/graph/treeGraph/graph.vue'
 import LineGraph from '../components/graph/lineGraph/index.vue'
@@ -33,6 +35,16 @@ const routes = [
     path: '/printgraphics',
     name: 'printgraphics',
     component: PrintView
+  },
+  {
+    path: '/graphicsPuls',
+    name: 'graphicsPuls',
+    component: Graphics
+  },
+  {
+    path: '/printgraphicsPuls',
+    name: 'printgraphicsPuls',
+    component: Printgraphics
   }
 ]
 
