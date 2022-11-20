@@ -2,6 +2,8 @@
 
 一些独立组件的项目，目前有体温单、股权穿透图、关系图
 
+![preview](./screenshots.png)
+
 ## 安装依赖
 
 npm install  
