@@ -7,18 +7,24 @@
 <script>
 import TreeChart from './treeChart'
 import STATIC_DATA from './data'
-const d3Loding = () => import('../../../assets/d3.v3.min.js')
+import * as d3 from 'd3'
 export default {
   data () {
     return {
     }
   },
   mounted () {
-    d3Loding().then(() => {
+    this.init()
+  },
+  activated () {
+    this.init()
+  },
+  methods: {
+    init () {
       const data = STATIC_DATA
-      var d3GenerationChart = new TreeChart(window.d3)
+      var d3GenerationChart = new TreeChart(d3)
       d3GenerationChart.drawChart(data)
-    })
+    }
   }
 }
 
