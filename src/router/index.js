@@ -14,37 +14,58 @@ const routes = [
   {
     path: '/',
     name: 'ChartView',
-    component: ChartView
+    component: ChartView,
+    config: {
+      title: '体温单'
+    }
   },
   {
     path: '/treeGraph',
     name: 'TreeGraph',
-    component: TreeGraph
+    component: TreeGraph,
+    config: {
+      title: '组织结构图'
+    }
   },
   {
     path: '/lineGraph',
     name: 'LineGraph',
-    component: LineGraph
+    component: LineGraph,
+    config: {
+      title: '关系图'
+    }
   },
   {
     path: '/mapGraph',
     name: 'MapGraph',
-    component: MapGraph
+    component: MapGraph,
+    config: {
+      title: '穿透图'
+    }
   },
   {
     path: '/printgraphics',
     name: 'printgraphics',
-    component: PrintView
+    component: PrintView,
+    config: {
+      show: false
+    }
   },
   {
     path: '/graphicsPuls',
     name: 'graphicsPuls',
-    component: Graphics
+    component: Graphics,
+    config: {
+      title: '新体温单'
+    }
   },
   {
     path: '/printgraphicsPuls',
     name: 'printgraphicsPuls',
-    component: Printgraphics
+    component: Printgraphics,
+    config: {
+      show: false
+    }
   }
 ]
 
@@ -53,5 +74,5 @@ const router = new VueRouter({
   mode: 'history',
   routes
 })
-
+console.log(router)
 export default router
