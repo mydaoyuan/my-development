@@ -1,6 +1,6 @@
 # 说明
 
-一些独立组件的项目，目前有体温单、股权穿透图、关系图
+一些独立组件的项目，目前有体温单、股权穿透图、关系图 https://2guliang.top/temperature/graphicsPuls
 
 ![preview](./screenshots.png)
 
