@@ -1,10 +1,15 @@
 <template>
-    <iframe class="iframe" src="/static/assets/timeChat.html"></iframe>
+    <iframe class="iframe" :src="src"></iframe>
 </template>
 
 <script>
+const { VUE_APP_PATH } = process.env
 export default {
-
+  data () {
+    return {
+      src: VUE_APP_PATH + '/static/assets/timeChat.html'
+    }
+  }
 }
 </script>
 
