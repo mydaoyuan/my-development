@@ -7,6 +7,7 @@ import PrintView from '../components/printView.vue'
 import TreeGraph from '../components/graph/treeGraph/graph.vue'
 import LineGraph from '../components/graph/lineGraph/index.vue'
 import MapGraph from '../components/graph/mapGraph/map.vue'
+import timeChat from '../components/timeChat/timeChat.vue'
 const { VUE_APP_PATH } = process.env
 Vue.use(VueRouter)
 
@@ -65,6 +66,15 @@ const routes = [
     component: Printgraphics,
     config: {
       show: false
+    }
+  },
+  {
+    path: '/timeChat',
+    name: 'timeChat',
+    component: timeChat,
+    config: {
+      title: '患者时间轴',
+      new: true
     }
   }
 ]

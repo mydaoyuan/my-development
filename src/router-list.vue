@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="item in routerList" :key="item.path">
-      <div :class="['link-item',item.path === $route.path && 'current']" @click="link(item)">
+      <div :class="['link-item',item.path === $route.path && 'current', item.config && item.config.new && 'newnew' ]" @click="link(item)">
         {{ (item.config && item.config.title) ||  item.name}}
       </div>
     </div>
@@ -46,5 +46,14 @@ export default {
 }
 .current {
   color: #3ba776
+}
+.newnew {
+  &::after {
+    content: 'new';
+    color: yellow;
+    background-color: red;
+    border-radius:4px ;
+    padding: 0 6px;
+  }
 }
 </style>
