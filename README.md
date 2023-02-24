@@ -2,7 +2,11 @@
 
 一些独立组件的项目，目前有体温单、股权穿透图、关系图 https://2guliang.top/temperature/graphicsPuls
 
+患者时间轴 <https://2guliang.top/temperature/timeChat>
+
 ![preview](./screenshots.png)
+
+![preview](./screenshots_time.png)
 
 ## 安装依赖
 
@@ -35,7 +39,6 @@ npm run serve
 ## 要请作者喝杯可乐吗？🥰
 
  <img src="./pay.jpg" width = "200" height = "300" alt="pay" align=center />
-
 
 ## 技术支持
 
