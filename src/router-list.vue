@@ -5,8 +5,9 @@
         {{ (item.config && item.config.title) ||  item.name}}
       </div>
     </div>
-    <div style="margin-top: 40px" class="link-item current">有偿开发\技术支持:</div>
-    <div @click="addQQ"></div>
+    <div style="margin-top: 40px" class="link-item current">
+    <a href="https://cdn.2guliang.top/uPic/outsourcing.html" >有偿开发\技术支持说明</a>
+  </div>
     <a :href="`tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=${qq}`"  >QQ: {{qq}}</a>
   </div>
 </template>

@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cd ./public/static/assets/ && ./replace.sh",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "console-ban": "^3.2.0",
+    "console-ban": "^5.0.0",
     "core-js": "^3.6.5",
     "d3": "^3.5.17",
     "d3-6": "npm:d3@^6.7.0",
